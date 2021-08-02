@@ -11,28 +11,71 @@
     <title>Google</title>
 </head>
 <body>
-    <header>
-        <nav class="nav-bar">
-            <div class="button">
-                <li class="nav-bar__item">Gmail</li>
-                <li class="nav-bar__item">Imágenes</li>
-            </div>
-            <div class="nav-icon">
-                <figure class="icon-bar">
-                    <span class="icon-menu"></span>
+    <div>
+        <header>
+            <nav class="nav-bar">
+                
+                    <ul class="button">
+                        <li class="nav-bar__item"><a href=""></a> </li>
+                        <li class="nav-bar__item">Imágenes</li>
+                    </ul>
+                
+                <div class="nav-icon">
+                    <figure class="icon-bar">
+                        <span class="icon-menu"></span>
+                    </figure>
+                </div>
+                <div >
+                    <a class="sign-up" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com.mx/&ec=GAZAmgQ">Acceder</a>
+                </div>    
+            </nav>
+        </header>
+        <main>
+            <div>
+                <figure class="figure-google">
+                    <img class="image-google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google's logo">
                 </figure>
             </div>
-            <div >
-                <a class="sign-up" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com.mx/&ec=GAZAmgQ">Acceder</a>
-            </div>    
-        </nav>
-    </header>
-    <main>
-        <div>
-            <figure class="figure-google">
-                <img class="image-google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google's logo">
-            </figure>
+            <div class="search-container">
+                <figure class="loop">
+                    <span class="icon-lupa"></span>
+                </figure>
+                <div>
+                    <input class="search-field" type="text">
+                </div>
+                <figure class="micro-container">
+                    <img class="svg-micro" src="./figures/Google_mic.svg" alt="Google's logo">
+                </figure>
+            </div>
+            <div class="two-buttom">
+                <input class="twocentergoogle-buttom" value="Buscar con Google" aria-label="Buscar con Google" name="btnK" type="submit" >
+                <input class="twocentergoogle-buttom" value="Me siento con suerte" aria-label="Me siento con suerte" name="btnK" type="submit" >
+            </div>
+            <div class="language">
+                Ofrecido por Google en:  
+                <a href="https://www.google.com/setprefs?sig=0_6TxJyPmT8i1bGJUOMBTdgc5zB0I%3D&amp;hl=en&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwi22rzigJPyAhWCILkGHRiJBvYQ2ZgBCA4">English</a>
+                <a href="https://www.google.com/setprefs?sig=0_6TxJyPmT8i1bGJUOMBTdgc5zB0I%3D&amp;hl=qu&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwi22rzigJPyAhWCILkGHRiJBvYQ2ZgBCA8">Quechua</a>
+            </div>
+        </main>
+    </div>
+    <footer class="container-footer">
+        <div class="footer-clone">
+            Peru
         </div>
-    </main>
+        <div class="footer-clone">
+            <div class="footer-clone-left">
+                <a href="http://">Sobre Google</a>
+                <a href="http://">Publicidad</a>
+                <a href="http://">Negocios</a>
+                <a href="http://">Como funciona la Búsqueda</a>
+            </div>
+            <div class="footer-clone-right">
+                <a href="http://">Privacidad</a>
+                <a href="http://">Condiciones</a>
+                <a href="http://">Preferencias</a>
+
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
